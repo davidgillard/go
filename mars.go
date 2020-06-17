@@ -2,9 +2,9 @@
 auteur : David GILLARD */
 
 /*
-ce programme va permettre de connaître le poids et l'age de Nathan aurai si il vivait sur la planéte Mars
+ce programme va permettre de connaître mon poids ainsi que mon age si je vivait sur la planéte Mars
 
-sachant qu'il pése 76kg et est agé de 45 ans
+sachant que je pése 76kg et je suis agé de 45 ans
 
 quelques explications:
 
