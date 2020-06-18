@@ -17,7 +17,9 @@ import "fmt" // import de fmt du fournit les fonctions pour le formatage d'entr√
 func main() { // le programme d√©marre avec la fonction du package main
 
 	const nbresheuresparjours = 24
-	var vitesse = 100800    // km/h
-	var distance = 96300000 // km
+	var (
+		vitesse  = 100800   // km/h
+		distance = 96300000 // km
+	)
 	fmt.Println(distance/vitesse/nbresheuresparjours, "jours")
 }
