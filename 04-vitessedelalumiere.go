@@ -1,4 +1,4 @@
-/*fichier : vitessedelalumiere.go
+/*fichier : 04-vitessedelalumiere.go
 auteur : David GILLARD */
 
 /*

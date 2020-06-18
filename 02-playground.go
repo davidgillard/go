@@ -1,4 +1,4 @@
-/*fichier : playground.go
+/*fichier : 02-playground.go
 auteur : David GILLARD */
 
 /*

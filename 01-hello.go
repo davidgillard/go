@@ -1,4 +1,4 @@
-/*fichier : hello.
+/*fichier : 01-hello.go
 auteur : David GILLARD */
 
 /*
