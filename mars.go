@@ -29,7 +29,7 @@ import "fmt" // import de fmt du fournit les fonctions pour le formatage d'entr�
 
 func main() { // le programme démarre avec la fonction du package main
 
-	// Une première variante dans le programme consiste à écrire le code sur plusieurs ligne en répétant la fonction fmt.Println
+	// Une première variante dans le programme consiste à écrire le code sur plusieurs lignes en répétant la fonction fmt.Println
 
 	// fmt.Println("Mon poids à la surface de Mars serait de : ")
 	// fmt.Println(75 * 0.38)
@@ -42,4 +42,5 @@ func main() { // le programme démarre avec la fonction du package main
 
 	fmt.Printf("Mon poids à la surface de Mars serait de %v kg,", 75*0.38)
 	fmt.Printf(" et j'aurai %v ans.\n", 45*365/687)
+	fmt.Printf("Mon poids sur la %v est de %v kg.\n", "terre", 76)
 }
