@@ -16,11 +16,11 @@ import (
 func main() {
 
 	var (
-		avoir_un_projecteur = true
-		projecteur_allume   = false
+		avoirProjecteur  = true
+		projecteurAllume = false
 	)
 
-	if !avoir_un_projecteur || !projecteur_allume {
+	if !avoirProjecteur || !projecteurAllume {
 		fmt.Println("Il n'est pas possible de voir quelque chose ici")
 	}
 }
