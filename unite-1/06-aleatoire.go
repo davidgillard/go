@@ -15,11 +15,13 @@ package main // import du package main
 import (
 	"fmt" // import de fmt du fournit les fonctions pour le formatage d'entrées / sorties
 	"math/rand"
+	"time"
 )
 
 func main() { // le programme démarre avec la fonction du package main
-
-	var num = rand.Intn(10) + 1
+	seconds := time.Now().Unix()
+	rand.Seed(seconds)
+	num := rand.Intn(10) + 1
 	fmt.Println(num)
 	num = rand.Intn(10) + 1
 	fmt.Println(num)
