@@ -37,8 +37,8 @@ func ecart_type(notes []float64) float64 {
 }
 
 func main() {
-	//notes := []float64{13, 13, 14, 12, 14, 12, 14, 15, 13, 12}
-	notes := []float64{3, 13, 19, 18, 14, 2, 9, 15, 17, 1}
+	//notes := []float64{13, 13, 14, 12, 14, 12, 14, 15, 13, 12} // Les notes sont assez proches l'une de l'autre du coup un écart-type assez faible
+	notes := []float64{3.5, 13, 19.5, 18.5, 14, 2.5, 9, 15.5, 17, 1} // les notes sont assez instable du coup écart-type important.
 	fmt.Println("La moyenne des notes: ", moyenne(notes))
 	fmt.Println("l'écart-type des notes: ", ecart_type(notes))
 }
